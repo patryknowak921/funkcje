@@ -13,5 +13,3 @@ function getTriangleArea(a, h) {
     	return;
 	}
 }
-
-console.log( getTriangleArea(a,h) );
