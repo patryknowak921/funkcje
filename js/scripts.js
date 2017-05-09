@@ -1,5 +1,9 @@
-var a = prompt('Wpisz wartość a');
-var h = prompt('Wpisz wartość h');
+var triangle1Area = getTriangleArea(prompt('podaj a'), prompt('podaj h'));
+console.log(triangle1Area);
+var triangle2Area = getTriangleArea(prompt('podaj a'), prompt('podaj h'));
+console.log(triangle2Area);
+var triangle3Area = getTriangleArea(prompt('podaj a'), prompt('podaj h'));
+console.log(triangle3Area);
 
 function getTriangleArea(a, h) {
 	if ( (a > 0) && (h > 0) ) {
